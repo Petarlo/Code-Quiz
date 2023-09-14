@@ -3,37 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coding Quiz</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Code Quiz</title>
 </head>
+<header>
+    <h1>Welcome to the Coding Quiz</h1>
+    <p>Answer the following questions to test your coding knowledge!<br>
+    Incorrect answers will remove 10 seconds off the clock. <br> 
+    Good Luck!</p>
+    <button class="highscores">View Highscores</button>
+    <button class="start-btn">Start Quiz!</button>
+  <div class= "card timer">
+    <div class = "timer-text">
+    <div class="large-font timer-count">70</div>
+    <h3>seconds remaining</h3>
+  </div>
+</header>
 <body>
-  <header>
-    <h1> Welcome to the Coding Quiz!</h1>
-  </header>
-  <main>
-    <section>
-       <button class="StartQuiz">Start Quiz</button> 
-    </section>
-
-    <section>
-        <div class="card results">
-          <div class = "win-loss-container">
-          <div>
-          <h2>Wins: <span class="win">0 </span> </h2>
-          <h2>Losses: <span class="lose">0</span></h2>
+  <div class="app">
+    <div class="quiz">
+        <h2 id="question">Question</h2>
+        <div id="answer-buttons">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
         </div>
-          <button class="reset-button">Reset Score</button>
-      </div>
-          <div class= "card timer">
-            <div class = "timer-text">
-            <div class="large-font timer-count">10</div>
-            <h3>seconds remaining</h3>
-          </div>
-      </div>
-          </div>
-    </section>
-
-  </main>
-  <script src="assets/js/script.js"></script>
+        <button id="next-btn">Next</button>
+        </div>
+  </div>  
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
