@@ -11,9 +11,9 @@
     <p>Answer the following questions to test your coding knowledge!<br>
     Incorrect answers will remove 10 seconds off the clock. <br> 
     Good Luck!</p>
-    <button class="highscores">View Highscores</button>
+    <div><a href="./highscores.html">Highscores</a></div>
     <button class="start-btn">Start Quiz!</button>
-  <div class= "card timer">
+  <div class= "timer">
     <div class = "timer-text">
     <div class="large-font timer-count">70</div>
     <h3>seconds remaining</h3>
@@ -31,6 +31,13 @@
         </div>
         <button id="next-btn">Next</button>
         </div>
+        <div id="results-page" class="hide">
+          <h2>All done!</h2>
+          <p>Your final score is <span id="final-score"></span>/6</p>
+          <label>Enter your initials: </label>
+          <input type="text" id="initials" size="6">
+          <button id="submit-highscore" class="btn submit-btn" onclick="handleSubmit()">Submit Score</button>
+      </div>
   </div>  
   <script src="./assets/js/script.js"></script>
 </body>
