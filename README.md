@@ -13,4 +13,4 @@ The link to access the website and a screenshot of the page is below...
 
 https://petarlo.github.io/Code-Quiz/
 
-![Screenshot of page](\Assets\Images\Password-gen.png)
+![Screenshot of page](./assets/Images/Code-Quiz-Screenshot.png)
