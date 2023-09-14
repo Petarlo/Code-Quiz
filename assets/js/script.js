@@ -58,9 +58,9 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
-const startButton = document.querySelector("start-btn");
-const timerEl = document.querySelector("timer-count");
-const highScores= document.querySelector("highscores");
+const startButton = document.querySelector(".start-btn");
+const timerEl = document.querySelector(".timer-count");
+const highScores= document.querySelector("#highscores-list");
 
 let currentQuestionIndex = 0;
 let score = 0;
